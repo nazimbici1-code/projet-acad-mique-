@@ -1,5 +1,3 @@
-@ -0,0 +1,98 @@
-package essaye;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
