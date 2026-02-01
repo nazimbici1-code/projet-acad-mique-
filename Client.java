@@ -1,5 +1,3 @@
-@ -0,0 +1,100 @@
-package essaye;
 
 import java.awt.event.*;
 import java.io.*;
