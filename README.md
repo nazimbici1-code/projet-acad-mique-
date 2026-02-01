@@ -3,17 +3,24 @@ Ce projet consiste en le développement d'une application de messagerie instanta
 
 L'objectif principal est de démontrer la maîtrise de la communication réseau par Sockets, la gestion de la concurrence (Multithreading) et la synchronisation des données en temps réel.
 # Fonctionnalités Clés
-# .Communication bidirectionnelle : Envoi et réception de messages instantanés grâce aux Sockets TCP garantissant la fiabilité des données.
+# .Communication bidirectionnelle :
+Envoi et réception de messages instantanés grâce aux Sockets TCP garantissant la fiabilité des données.
 
-# .Gestion Multi-clients : Le serveur peut gérer simultanément plusieurs connexions entrantes grâce à l'implémentation de threads dédiés.
+# .Gestion Multi-clients : 
+Le serveur peut gérer simultanément plusieurs connexions entrantes grâce à l'implémentation de threads dédiés.
 
-# .Système de Présence : Gestion dynamique des connexions et déconnexions avec notification en temps réel pour les autres utilisateurs.
+# .Système de Présence :
+Gestion dynamique des connexions et déconnexions avec notification en temps réel pour les autres utilisateurs.
 
-# .Architecture Scalable : Séparation claire entre la logique de service (Server) et l'interface utilisateur (Client)
+# .Architecture Scalable :
+Séparation claire entre la logique de service (Server) et l'interface utilisateur (Client)
 
 # Aspects Techniques
-# .Protocole : TCP/IP (pour une transmission sans perte de paquets).
+# .Protocole : 
+TCP/IP (pour une transmission sans perte de paquets).
 
-# .Architecture : Centralisée (Le serveur agit comme un hub distribuant les messages).
+# .Architecture : 
+Centralisée (Le serveur agit comme un hub distribuant les messages).
 
-# .Multithreading : Utilisation de threads pour éviter le blocage de l'interface et permettre des lectures/écritures parallèles.
+# .Multithreading : 
+Utilisation de threads pour éviter le blocage de l'interface et permettre des lectures/écritures parallèles.
