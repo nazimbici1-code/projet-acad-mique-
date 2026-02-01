@@ -1,5 +1,3 @@
-@ -0,0 +1,33 @@
-package essaye;
 
 import java.net.ServerSocket;
 import java.net.Socket;
